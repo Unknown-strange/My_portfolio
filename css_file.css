@@ -69,3 +69,53 @@ nav a:hover{
 footer a{
     margin: 5px;
 }
+
+body{
+    background-color: rgba(51, 24, 50, 0.91);
+    color: rgb(230, 226, 228);
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+nav{
+    float:right;
+    
+}
+.nav_bar{
+    background-color: rgba(0, 0, 0, 0.719);
+    overflow: hidden;
+    padding: 5px;
+    text-align: center;
+}
+.nav_bar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content:space-around;
+}
+.nav_bar li{
+  display: inline-block;
+  margin-left: 40px;
+  padding-right: 50px ;
+  padding-top: 20px;
+}
+nav a{
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: rgba(0, 0, 255, 0.36);
+}
+.the_unknown{
+    margin-right: 5px;
+    float: left;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+.dev{
+    float:20px;
+    padding-top: 50px;
+}
