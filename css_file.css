@@ -1,0 +1,71 @@
+body{
+    color: rgb(244, 243, 243);
+    padding: 0;margin: 0;box-sizing: border-box;
+    
+}
+.main_content{
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+nav{
+    float:right;
+    
+}
+.nav_bar{
+    background-color: rgba(0, 0, 0, 0.719);
+    overflow: hidden;
+    padding: 5px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+.nav_bar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content:space-around;
+}
+.nav_bar li{
+  display: inline-block;
+  margin-left: 40px;
+  padding-right: 50px ;
+  padding-top: 20px;
+}
+nav a{
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: rgba(0, 0, 255, 0.36);
+}
+.the_unknown{
+    margin-right: 5px;
+    float: left;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    color: rgba(255, 0, 0, 0.43);
+}
+.edwin{
+    color: rgba(5, 13, 252, 0.952);
+}
+.dev{
+    float:20px;
+    padding-top: 50px;
+}
+.container{
+    background-image:url(/nature.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+    
+}
+
+footer a{
+    margin: 5px;
+}
